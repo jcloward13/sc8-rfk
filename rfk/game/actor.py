@@ -85,3 +85,6 @@ class Actor:
             position (Point): The given velocity.
         """
         self._velocity = velocity
+        
+    def set_tag(self, tag):
+        self._tag = tag
